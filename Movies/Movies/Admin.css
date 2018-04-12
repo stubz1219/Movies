@@ -1,0 +1,24 @@
+﻿body {
+}
+h1{
+    font-size:18pt;
+    text-align:center;
+    border-bottom:solid;
+    border-bottom-width:medium;
+}
+.movieEntry{
+    padding-left:25px;
+    padding-bottom:25px;
+    border-bottom-width:medium;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+}
+.userEntry{
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border-top:solid;
+    border-bottom:solid;
+    border-width:medium;
+}

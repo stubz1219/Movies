@@ -1,0 +1,9 @@
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\bin\Movies.dll.config
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\bin\Movies.dll
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\bin\Movies.pdb
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\obj\Debug\Movies.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\obj\Debug\Movies.csproj.CoreCompileInputs.cache
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\obj\Debug\Movies.dll
+C:\Users\Phillip\Documents\Prg412\Website\Movies\Movies\obj\Debug\Movies.pdb

@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Movies.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="Master.css" />
+    <title>Movie Catalog</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div class="header">
+            <h1>My Film Collection</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="Default.aspx">Home</a></li>
+                <li><a href="Browse.aspx">Browse</a></li>
+                <li><a href="Search2.aspx">Search</a></li>
+                <li><a href="About.aspx">About</a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="sidebar">
+                
+                <h4>
+                    Title
+                    <asp:TextBox ID="sbTitle" runat="server">Keyword</asp:TextBox>
+                    <asp:Button ID="sbBTitle" runat="server" Text="Search" OnClick="sbBTitle_Click" />
+                </h4>
+
+                <h4>
+                    Year<br />
+                    <asp:TextBox ID="sbYearF" runat="server" Width="65px">From</asp:TextBox>
+                    <asp:TextBox ID="sbYearT" runat="server" Width="65px" >To</asp:TextBox>
+                    <asp:Button ID="sbByear" runat="server" Text="Search" OnClick="sbByear_Click" />
+                </h4>
+                <h4>
+                    Genre
+                    
+                    <asp:TextBox ID="sbGenre" runat="server">KeyWord</asp:TextBox>
+                    <asp:Button ID="sbBGenre" runat="server" Text="Search" OnClick="sbBGenre_Click" />
+          
+                </h4>
+                <div class="login">
+                    <asp:TextBox ID="userName" runat="server">UserName</asp:TextBox>
+                    <asp:TextBox ID="Password" runat="server">Password</asp:TextBox>
+                    <asp:Button ID="bLogin" runat="server" Text="Login" OnClick="bLogin_Click" />
+                </div>
+            </div>
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            
+
+            </div>
+        </div>
+
+    </div>
+
+    </form>
+
+</body>
+</html>
+

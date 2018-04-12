@@ -1,0 +1,18 @@
+﻿.searchContainer {
+    width: 789px;
+    height: 200px;
+
+}
+.search1 {
+    width: 250px;
+    height:180px;
+
+    float:left;
+}
+.search2 {
+    width: 530px;
+    height:180px;
+
+    float:right;
+    
+}
